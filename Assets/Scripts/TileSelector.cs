@@ -34,8 +34,8 @@ public class TileSelector : MonoBehaviour
 
     private void _showTileInfoWindow(TileBase clickedTile)
     {
-        DebugLogger.Log("TILE: " + clickedTile.name);
-        DebugLogger.Log("Instance ID: " + clickedTile.GetInstanceID());
+        // DebugLogger.Log("TILE: " + clickedTile.name);
+        // DebugLogger.Log("Instance ID: " + clickedTile.GetInstanceID());
 
         // Show a window with tile info
 

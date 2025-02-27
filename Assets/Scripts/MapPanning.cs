@@ -7,7 +7,7 @@ public class MapPanningZooming : MonoBehaviour
 {
     public Camera cam;
     public float zoomSpeed = 5f;
-    public float minZoom = 3f;
+    public float minZoom = 2f;
     public float maxZoom = 15f;
 
     private Vector3 dragOrigin;
@@ -113,8 +113,8 @@ public class MapPanningZooming : MonoBehaviour
     }
     private void _showTileInfoWindow(TileBase clickedTile)
     {
-        DebugLogger.Log("TILE: " + clickedTile.name);
-        DebugLogger.Log("Instance ID: " + clickedTile.GetInstanceID());
+        // DebugLogger.Log("TILE: " + clickedTile.name);
+        // DebugLogger.Log("Instance ID: " + clickedTile.GetInstanceID());
 
         // Show a window with tile info
 
