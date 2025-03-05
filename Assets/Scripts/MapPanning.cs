@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -10,10 +11,13 @@ public class MapPanningZooming : MonoBehaviour
     public float minZoom = 2f;
     public float maxZoom = 15f;
 
+
     private Vector3 dragOrigin;
 
 
     public Tilemap tilemap;
+    public TilemapRenderer tilemapRenderer;
+
 
     public GameObject TileWindow;
 
@@ -25,39 +29,32 @@ public class MapPanningZooming : MonoBehaviour
     private bool isDragging = false;
     private float dragThreshold = 10f; // Minimum movement (in pixels) to detect dragging
 
+    void Start()
+    {
+
+        if (cam == null)
+        {
+            cam = Camera.main;
+        }
+
+        SetCameraZoomSpeed(3);
+    }
+
     void Update()
     {
-        HandlePanning2();
+        HandlePanning();
         HandleZooming();
     }
 
-    void HandlePanning()
+    [Conditional("UNITY_EDITOR")]
+    public void SetCameraZoomSpeed(float speed)
     {
-        if (Input.touchCount == 1) // Mobile drag
-        {
-            Touch touch = Input.GetTouch(0);
-            if (touch.phase == TouchPhase.Began)
-            {
-                dragOrigin = cam.ScreenToWorldPoint(touch.position);
-            }
-            else if (touch.phase == TouchPhase.Moved)
-            {
-                Vector3 difference = dragOrigin - cam.ScreenToWorldPoint(touch.position);
-                cam.transform.position += difference;
-            }
-        }
-        else if (Input.GetMouseButtonDown(0)) // Mouse drag
-        {
-            dragOrigin = cam.ScreenToWorldPoint(Input.mousePosition);
-        }
-        else if (Input.GetMouseButton(0))
-        {
-            Vector3 difference = dragOrigin - cam.ScreenToWorldPoint(Input.mousePosition);
-            cam.transform.position += difference;
-        }
+        zoomSpeed = speed;
     }
 
-    void HandlePanning2()
+
+
+    void HandlePanning()
     {
         if (IsPointerOverUI()) return;
 
@@ -121,7 +118,7 @@ public class MapPanningZooming : MonoBehaviour
 
         // Example: Show a window with the tile name
         TileWindow.SetActive(true);
-        TileWindow.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = clickedTile.name;
+        TileWindow.GetComponentInChildren<TextMeshProUGUI>().text = clickedTile.name;
     }
 
     void HandleZooming()
@@ -155,5 +152,14 @@ public class MapPanningZooming : MonoBehaviour
         increment = increment > 0 ? increment + fasterWhenFarther : increment - fasterWhenFarther;
         // float zoomFactor = cam.orthographicSize * 0.5f * ; // Scale zoom speed based on current zoom
         cam.orthographicSize = Mathf.Clamp(cam.orthographicSize + (increment * zoomSpeed), minZoom, maxZoom);
+        //if size is greater than 20
+        if (cam.orthographicSize > 25)
+        {
+            tilemapRenderer.mode = TilemapRenderer.Mode.SRPBatch;
+        }
+        else
+        {
+            tilemapRenderer.mode = TilemapRenderer.Mode.Individual;
+        }
     }
 }

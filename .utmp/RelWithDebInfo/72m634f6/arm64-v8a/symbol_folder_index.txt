@@ -1,0 +1,1 @@
+C:\Unity Projects\GoldTrail\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\72m634f6\obj\arm64-v8a

@@ -1,0 +1,23 @@
+# ninja log v5
+5	1364	7628900741500662	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	cfac256e620820a
+53	183	7628900729728750	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	48683791117b689a
+183	342	7628900731226480	C:/Unity Projects/GoldTrail/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/72m634f6/obj/arm64-v8a/libswappywrapper.so	bbc91f207191fc0e
+33	923	7628900737094717	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	925661a24d46ac3a
+23	1053	7628900738376484	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9673e5dcdf532268
+11	868	7628900736517477	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	65b79ee475e92c0
+46	995	7628900737548990	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f1ea7aff3f672b1c
+40	874	7628900736584276	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	bf83bfbcaae1056e
+18	881	7628900736645570	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e9eeb1f19f8e8171
+28	1198	7628900739820942	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	7add70155c924d12
+1365	1477	7628900742605499	C:/Unity Projects/GoldTrail/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/72m634f6/obj/arm64-v8a/libgame.so	33d2071e00aa3e9
+59	284	7629030598959411	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	48683791117b689a
+284	481	7629030600852307	C:/Unity Projects/GoldTrail/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/72m634f6/obj/arm64-v8a/libswappywrapper.so	bbc91f207191fc0e
+37	982	7629030605917349	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	bf83bfbcaae1056e
+25	983	7629030605917349	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e9eeb1f19f8e8171
+11	988	7629030605995865	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	65b79ee475e92c0
+31	1009	7629030606212451	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	925661a24d46ac3a
+51	1070	7629030606794572	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f1ea7aff3f672b1c
+18	1115	7629030607277147	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9673e5dcdf532268
+44	1265	7629030608770489	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	7add70155c924d12
+5	1377	7629030609867625	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	cfac256e620820a
+1377	1497	7629030611063759	C:/Unity Projects/GoldTrail/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/72m634f6/obj/arm64-v8a/libgame.so	33d2071e00aa3e9
