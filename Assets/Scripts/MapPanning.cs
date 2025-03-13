@@ -52,6 +52,11 @@ public class MapPanningZooming : MonoBehaviour
         zoomSpeed = speed;
     }
 
+    private void _setStartingTileMode()
+    {
+        tilemapRenderer.mode = TilemapRenderer.Mode.Individual;
+    }
+
 
 
     void HandlePanning()

@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 9d84062812062420cbbd41773e959bcc
+labels:
+- Atlas
+- Mesh
+- Normal
+- Normalmap
+- Packer
+- Packing
+- Polygon
+- Sprite
+- Spritesheet
+- Texture
+- TexturePacker
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16641
+  packageName: TexturePacker Importer
+  packageVersion: 7.6.0
+  assetPath: Assets/codeandweb.com/Editor/UIImageSetSizeAndPivot.cs
+  uploadId: 729658

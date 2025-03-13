@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: e9ac4962ba3024840b8804d51eaa2019
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Banditilvl3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 801
+        width: 509
+        height: 317
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.47634068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffec49c44833054fb0c5df0a8230b40
+      internalID: -896462532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanditiLvl4
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1672
+        width: 507
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5009862, y: 0.46728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a84ce1e6199581409ef48b2e92a1775
+      internalID: -563334026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanditiLvl5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1427
+        width: 507
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5009862, y: 0.45180723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b369169c3bf06f743a8e0a0dd2466fd6
+      internalID: 1901580638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banickaOsada
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1057
+        width: 511
+        height: 311
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.48553056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d35d4272d63d8448d142ad1a2603eb
+      internalID: 286094445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buildingbank
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 461
+        width: 509
+        height: 306
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.49346405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d7d2fdaf5de0249bbaaac12a00076b
+      internalID: 141237887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuildingDistillery
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1710
+        width: 512
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4421365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd304a07bc322d4c81d6851a3cd4616
+      internalID: 127567270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuildingDoctor
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1262
+        width: 507
+        height: 327
+      alignment: 9
+      pivot: {x: 0.5009862, y: 0.4587156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adde1a0ee7f7fb4cbbd9e133baec0ed
+      internalID: 1498076357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuildingFarma
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 939
+        width: 508
+        height: 314
+      alignment: 9
+      pivot: {x: 0.4980315, y: 0.48089173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbea939ba056744c93b8317f5b67edd
+      internalID: -2024818376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buildingosada
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 269
+        width: 512
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553cc0ac321440d44a72485cffd07e2b
+      internalID: -1390775319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Buildingran\u010D"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 807
+        width: 508
+        height: 316
+      alignment: 9
+      pivot: {x: 0.4980315, y: 0.4778481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2f68cdab0320d44b113e29b596b613
+      internalID: 1800173128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buildingsaloon
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1256
+        width: 505
+        height: 336
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.44642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36374bc1c0a4e940a000b455de8bce0
+      internalID: -54271202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuildingshopSupply
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 775
+        width: 509
+        height: 312
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.48397437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346707d33fdc8894fbf6174da7e5b3ac
+      internalID: 1814960005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coal
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 512
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5067114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6916e6627bfb44f93b0b90aabc207a
+      internalID: 1559763864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldCotton
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1089
+        width: 507
+        height: 326
+      alignment: 9
+      pivot: {x: 0.5009862, y: 0.4601227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fb0b49a7fa5734baed43989df1be47
+      internalID: -1349683748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldSugarCane
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1596
+        width: 507
+        height: 332
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.44879517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae8bc31d4302764390693d75f7ab6de
+      internalID: -546947570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldTreeFruit
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1424
+        width: 507
+        height: 336
+      alignment: 9
+      pivot: {x: 0.5009862, y: 0.44642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1cfb7d8f5843f479ac3f1cbe48ce2b
+      internalID: -187749229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldWheat
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1412
+        width: 508
+        height: 329
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.45592704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9249893b3db2d814e94fa14022ec0f87
+      internalID: 487790322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaktusovyHaj2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1129
+        width: 509
+        height: 333
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.45345345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0236e069fa780b743afc7bcd8268be61
+      internalID: 695966280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1542
+        width: 508
+        height: 329
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.45896655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57c453f11ede714cace3758253b16c4
+      internalID: -1818220067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oasis
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 643
+        width: 506
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48553056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e623736564a2efd45b7d66a7928330d9
+      internalID: -783322040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opustenyVlak3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 965
+        width: 509
+        height: 319
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.47335422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a6ebe41ca74149b1c89ebb57e0ee3
+      internalID: 105645218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pasienkyDobytok2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1
+        width: 509
+        height: 299
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.50501674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4773d6befe99d43aec1d4dab8deb4f
+      internalID: -485570307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plaintile2
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 495
+        width: 509
+        height: 305
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.49508196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf01bf801084d94992a7ef3a5c603aa
+      internalID: -1976498483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: popraskanaZem
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 19
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e615d3596388f55418c52cc416f1637d
+      internalID: 461695948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ropnepolia
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 295
+        width: 509
+        height: 301
+      alignment: 9
+      pivot: {x: 0.502947, y: 0.49833888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f40fea40d79b484b891f312b30c5251
+      internalID: 45939209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 540
+        width: 509
+        height: 315
+      alignment: 9
+      pivot: {x: 0.502947, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c7c2f976ac6b84c9e0c06090f4777c
+      internalID: -644748583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrainsavana1
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1715
+        width: 506
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4548193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6873dd37123a7254fb200a48894fd4bc
+      internalID: 1042680052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrainsavana1A
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 356
+        width: 504
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e750e053fcb04c4c8ced421d167fc2e
+      internalID: -2140517675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainWildGrass1
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 633
+        width: 506
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48867315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430ead9112469ee4c906b64cac563dc7
+      internalID: -238697101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainWildGrass2A
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 163
+        width: 506
+        height: 302
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.49337748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce48b4e9d85ee7a4695b33bc0e714c9d
+      internalID: -1592577841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testsaloon
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1256
+        width: 505
+        height: 336
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.44642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cafa1a9873bc034fbb5dcdfcda0379e
+      internalID: -2047999102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a3fbc3a61eb71e048a4e225058e643c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BanditiLvl4: -563334026
+      BanditiLvl5: 1901580638
+      Banditilvl3: -896462532
+      BuildingDistillery: 127567270
+      BuildingDoctor: 1498076357
+      BuildingFarma: -2024818376
+      Buildingbank: 141237887
+      Buildingosada: -1390775319
+      "Buildingran\u010D": 1800173128
+      Buildingsaloon: -54271202
+      BuildingshopSupply: 1814960005
+      Coal: 1559763864
+      FieldCotton: -1349683748
+      FieldSugarCane: -546947570
+      FieldTreeFruit: -187749229
+      FieldWheat: 487790322
+      Oasis: -783322040
+      TerrainWildGrass1: -238697101
+      TerrainWildGrass2A: -1592577841
+      Terrainsavana1: 1042680052
+      Terrainsavana1A: -2140517675
+      banickaOsada: 286094445
+      kaktusovyHaj2: 695966280
+      mountain: -1818220067
+      opustenyVlak3: 105645218
+      pasienkyDobytok2: -485570307
+      plaintile2: -1976498483
+      popraskanaZem: 461695948
+      ropnepolia: 45939209
+      swamp: -644748583
+      testsaloon: -2047999102
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
