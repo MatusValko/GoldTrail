@@ -14,9 +14,9 @@ public class MapPanningZooming : MonoBehaviour
 
     private Vector3 dragOrigin;
 
-
-    public Tilemap tilemap;
-    public TilemapRenderer tilemapRenderer;
+    [SerializeField] private TileManager tileManager;
+    private Tilemap tilemap;
+    private TilemapRenderer tilemapRenderer;
 
 
     public GameObject TileWindow;
@@ -36,6 +36,9 @@ public class MapPanningZooming : MonoBehaviour
         {
             cam = Camera.main;
         }
+        tilemap = TileManager.instance.tilemap;
+        tilemapRenderer = tilemap.GetComponent<TilemapRenderer>();
+
 
         SetCameraZoomSpeed(3);
     }
@@ -105,7 +108,20 @@ public class MapPanningZooming : MonoBehaviour
             if (clickedTile != null)
             {
                 DebugLogger.Log($"Clicked on tile at {tilePos}, Tile: {clickedTile.name}");
-                _showTileInfoWindow(clickedTile);
+                TileManager.instance.SelectTile(tilePos);
+
+                // Highlight the clicked tile (optional)
+                // GameObject highlight = Instantiate(highlightPrefab, tilemap.GetCellCenterWorld(tilePos), Quaternion.identity);
+                // highlight.transform.SetParent(tilemap.transform); // Set parent to tilemap for proper positioning
+                // Destroy(highlight, 2f); // Destroy highlight after 2 seconds
+                // Show tile info in the UI panel
+                // infoPanel.SetActive(true);
+                // tileInfoText.text = $"Tile: {clickedTile.name}\nPosition: {tilePos}";
+                // infoPanel.transform.position = tilemap.GetCellCenterWorld(tilePos); // Position the panel over the tile
+                // infoPanel.transform.position = new Vector3(tilePos.x, tilePos.y, 0); // Position the panel over the tile
+
+
+                // _showTileInfoWindow(clickedTile);
             }
             else
             {

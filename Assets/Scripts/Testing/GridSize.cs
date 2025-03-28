@@ -4,19 +4,12 @@ using UnityEngine.Tilemaps;
 
 public class GridSize : MonoBehaviour
 {
-    public Tilemap tilemap;
     public TextMeshProUGUI text;
 
     void Start()
     {
-        if (tilemap == null)
-        {
-            Debug.LogError("Tilemap not assigned!");
-            return;
-        }
-
         // Get the bounds of the tilemap
-        BoundsInt bounds = tilemap.cellBounds;
+        BoundsInt bounds = TileManager.instance.bounds;
 
         // Calculate width and height
         int width = bounds.size.x;
