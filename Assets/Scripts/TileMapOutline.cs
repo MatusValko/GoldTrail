@@ -10,13 +10,17 @@ public class TilemapOutline : MonoBehaviour
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private BoundsInt bounds;
 
-
+    public Camera cam;
     private void Start()
     {
         bounds = TileManager.instance.bounds;
         gridSizeX = bounds.size.x;
         gridSizeY = bounds.size.y;
         MakeLine();
+        if (cam == null)
+        {
+            cam = Camera.main;
+        }
     }
 
     public void MakeLine()
@@ -48,9 +52,6 @@ public class TilemapOutline : MonoBehaviour
     {
         Vector3[] corners = new Vector3[5];
 
-        // Centering the 0,0 position
-        Vector3 center = IsoPosition(0, 0);
-
         corners[0] = IsoPosition(-gridSizeX / 2, -gridSizeY / 2);
         corners[1] = IsoPosition(gridSizeX / 2, -gridSizeY / 2);
         corners[2] = IsoPosition(gridSizeX / 2, gridSizeY / 2);
@@ -58,15 +59,6 @@ public class TilemapOutline : MonoBehaviour
         corners[4] = corners[0]; // Close loop
 
         lineRenderer.SetPositions(corners);
-
-        // Vector3[] corners = new Vector3[5]; // 4 corners + close loop
-        // corners[0] = IsoPosition(0, 0);
-        // corners[1] = IsoPosition(gridSizeX, 0);
-        // corners[2] = IsoPosition(gridSizeX, gridSizeY);
-        // corners[3] = IsoPosition(0, gridSizeY);
-        // corners[4] = corners[0]; // Close loop
-
-        // lineRenderer.SetPositions(corners);
     }
 
     private Vector3 IsoPosition(int x, int y)

@@ -28,6 +28,7 @@ public class MapPanningZooming : MonoBehaviour
     private Vector3 touchStartPos;
     private bool isDragging = false;
     private float dragThreshold = 10f; // Minimum movement (in pixels) to detect dragging
+    private TilemapOutline tilemapOutline;
 
     void Start()
     {
@@ -38,7 +39,7 @@ public class MapPanningZooming : MonoBehaviour
         }
         tilemap = TileManager.instance.tilemap;
         tilemapRenderer = tilemap.GetComponent<TilemapRenderer>();
-
+        tilemapOutline = GetComponent<TilemapOutline>();
 
         SetCameraZoomSpeed(3);
     }
@@ -158,5 +159,7 @@ public class MapPanningZooming : MonoBehaviour
         {
             tilemapRenderer.mode = TilemapRenderer.Mode.Individual;
         }
+
+        tilemapOutline.SetLineWidth(0.5f * (cam.orthographicSize / 100)); // Update line width based on zoom level
     }
 }

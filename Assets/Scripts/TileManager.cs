@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
 using System.IO;
-using TMPro;
 
 public class TileManager : MonoBehaviour
 {
@@ -18,7 +17,6 @@ public class TileManager : MonoBehaviour
     public Color nearColor = Color.gray;
     public Color hiddenColor = Color.black;
     public int discoveryRange = 1; // How far to mark as near tiles
-    public int plusSize = 3; // How far to mark as near tiles in plus shape
 
     private void Awake()
     {
@@ -83,7 +81,7 @@ public class TileManager : MonoBehaviour
             if (tileStates[tilePos].visibility == TileStateVisibility.Near)
             {
                 DebugLogger.Log($"Tile {tilePos} is near");
-                if (CanClickOnNearTile(tilePos))
+                if (_canClickOnNearTile(tilePos))
                 {
                     DebugLogger.Log($"Tile {tilePos} can be discovered.");
                     DiscoverTile(tilePos);
@@ -108,7 +106,7 @@ public class TileManager : MonoBehaviour
         UIManager.instance.ShowTileInfoWindow(clickedTilePos);
     }
 
-    bool CanClickOnNearTile(Vector3Int position)
+    private bool _canClickOnNearTile(Vector3Int position)
     {
         // Check adjacent tiles (x+1, y+1, x-1, y-1)
         Vector3Int[] directions = {
@@ -140,7 +138,7 @@ public class TileManager : MonoBehaviour
             tileStates[tilePos].visibility = TileStateVisibility.Discovered;
         }
 
-        DebugLogger.Log($"Tile {tilePos} clicked {tileStates[tilePos].clickCount} times.");
+        // DebugLogger.Log($"Tile {tilePos} clicked {tileStates[tilePos].clickCount} times.");
 
         UpdateTileVisual(tilePos);
         SetNearTiles(tilePos, discoveryRange);
