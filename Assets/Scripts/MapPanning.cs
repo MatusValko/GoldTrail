@@ -109,19 +109,6 @@ public class MapPanningZooming : MonoBehaviour
             {
                 DebugLogger.Log($"Clicked on tile at {tilePos}, Tile: {clickedTile.name}");
                 TileManager.instance.SelectTile(tilePos);
-
-                // Highlight the clicked tile (optional)
-                // GameObject highlight = Instantiate(highlightPrefab, tilemap.GetCellCenterWorld(tilePos), Quaternion.identity);
-                // highlight.transform.SetParent(tilemap.transform); // Set parent to tilemap for proper positioning
-                // Destroy(highlight, 2f); // Destroy highlight after 2 seconds
-                // Show tile info in the UI panel
-                // infoPanel.SetActive(true);
-                // tileInfoText.text = $"Tile: {clickedTile.name}\nPosition: {tilePos}";
-                // infoPanel.transform.position = tilemap.GetCellCenterWorld(tilePos); // Position the panel over the tile
-                // infoPanel.transform.position = new Vector3(tilePos.x, tilePos.y, 0); // Position the panel over the tile
-
-
-                // _showTileInfoWindow(clickedTile);
             }
             else
             {
@@ -129,18 +116,7 @@ public class MapPanningZooming : MonoBehaviour
             }
         }
     }
-    private void _showTileInfoWindow(TileBase clickedTile)
-    {
-        // DebugLogger.Log("TILE: " + clickedTile.name);
-        // DebugLogger.Log("Instance ID: " + clickedTile.GetInstanceID());
 
-        // Show a window with tile info
-
-
-        // Example: Show a window with the tile name
-        TileWindow.SetActive(true);
-        TileWindow.GetComponentInChildren<TextMeshProUGUI>().text = clickedTile.name;
-    }
 
     void HandleZooming()
     {

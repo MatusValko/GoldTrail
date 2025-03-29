@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
 using System.IO;
+using TMPro;
 
 public class TileManager : MonoBehaviour
 {
@@ -13,8 +14,6 @@ public class TileManager : MonoBehaviour
     private string saveFilePath;
 
     public static TileManager instance;
-
-
     public Color discoveredColor = Color.white;
     public Color nearColor = Color.gray;
     public Color hiddenColor = Color.black;
@@ -45,8 +44,6 @@ public class TileManager : MonoBehaviour
         saveFilePath = Path.Combine(Application.persistentDataPath, "tileSaveDataTest.json");
 
         LoadProgress(); // Load saved tile data
-        // InitializeTiles();
-        RefreshTileColors(); // Refresh colors based on loaded data
     }
 
     private void InitializeTiles()
@@ -68,23 +65,13 @@ public class TileManager : MonoBehaviour
 
     private void Update()
     {
-        // if (Input.GetMouseButtonDown(0))
-        // {
-        //     Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        //     Vector3Int tilePos = tilemap.WorldToCell(worldPos);
 
-        //     if (tileStates.ContainsKey(tilePos))
-        //     {
-        //         DiscoverTile(tilePos);
-        //         // SaveProgress(); // Save progress after interaction
-        //     }
-        // }
     }
 
     //select tile on click
     public void SelectTile(Vector3Int tilePos)
     {
-        tileStates[tilePos].clickCount++;
+
         if (tileStates.ContainsKey(tilePos))
         {
             if (tileStates[tilePos].visibility == TileStateVisibility.Hidden)
@@ -92,7 +79,8 @@ public class TileManager : MonoBehaviour
                 DebugLogger.Log($"Tile {tilePos} is hidden. Cannot select.");
                 return;
             }
-            else if (tileStates[tilePos].visibility == TileStateVisibility.Near)
+            tileStates[tilePos].clickCount++;
+            if (tileStates[tilePos].visibility == TileStateVisibility.Near)
             {
                 DebugLogger.Log($"Tile {tilePos} is near");
                 if (CanClickOnNearTile(tilePos))
@@ -104,16 +92,20 @@ public class TileManager : MonoBehaviour
             else if (tileStates[tilePos].visibility == TileStateVisibility.Discovered)
             {
                 DebugLogger.Log($"Tile {tilePos} is already discovered.");
+                _showTileInfoWindow(tilePos);
             }
             else
             {
                 DebugLogger.Log($"Tile {tilePos} is not in a valid state for selection.");
             }
 
-
-            // DiscoverTile(tilePos);
             // SaveProgress(); // Save progress after interaction
         }
+    }
+
+    private void _showTileInfoWindow(Vector3Int clickedTilePos)
+    {
+        UIManager.instance.ShowTileInfoWindow(clickedTilePos);
     }
 
     bool CanClickOnNearTile(Vector3Int position)
@@ -143,24 +135,15 @@ public class TileManager : MonoBehaviour
 
     public void DiscoverTile(Vector3Int tilePos)
     {
-        // DebugLogger.Log($"Tile {tilePos} discovered: {tileStates[tilePos].isDiscovered}.");
-
-        // if (!tileStates[tilePos].isDiscovered)
-        // {
-        //     tileStates[tilePos].isDiscovered = true;
-        // }
-
         if (tileStates[tilePos].visibility != TileStateVisibility.Discovered)
         {
             tileStates[tilePos].visibility = TileStateVisibility.Discovered;
         }
 
-
-        tileStates[tilePos].clickCount++;
         DebugLogger.Log($"Tile {tilePos} clicked {tileStates[tilePos].clickCount} times.");
 
         UpdateTileVisual(tilePos);
-        SetNearTiles(tilePos, 1);
+        SetNearTiles(tilePos, discoveryRange);
     }
 
     private void UpdateTileVisual(Vector3Int tilePos)
@@ -183,6 +166,16 @@ public class TileManager : MonoBehaviour
 
         }
 
+    }
+
+    //get click count of tile
+    public int GetClickCount(Vector3Int tilePos)
+    {
+        if (tileStates.ContainsKey(tilePos))
+        {
+            return tileStates[tilePos].clickCount;
+        }
+        return 0;
     }
 
 
@@ -264,7 +257,7 @@ public class TileManager : MonoBehaviour
             {
                 tileStates[centerTile].visibility = TileStateVisibility.Discovered;
                 tilemap.SetColor(centerTile, discoveredColor);
-                SetNearTiles(centerTile);
+                SetNearTiles(centerTile, 2);
             }
 
 
@@ -275,58 +268,35 @@ public class TileManager : MonoBehaviour
 
     }
 
-    // public void SetNearTiles(Vector3Int centerTile)
-    // {
-    //     int squareSize = 3; // Size of the square around the center tile
-    //     // Set a square of "near" tiles around the center tile
-    //     for (int dx = -squareSize; dx <= squareSize; dx++)
-    //     {
-    //         for (int dy = -squareSize; dy <= squareSize; dy++)
-    //         {
-    //             Vector3Int adjacentTile = centerTile + new Vector3Int(dx, dy, 0);
-
-    //             if (tileStates.ContainsKey(adjacentTile))
-    //             {
-    //                 // Skip the center tile itself if it's already discovered
-    //                 if (adjacentTile != centerTile)
-    //                 {
-    //                     //if tile is not discovered 
-    //                     if (tileStates[adjacentTile].visibility != TileStateVisibility.Discovered)
-    //                     {
-    //                         tileStates[adjacentTile].visibility = TileStateVisibility.Near;
-    //                         UpdateTileVisual(adjacentTile);
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-    public void SetNearTiles(Vector3Int centerTile, int plusSize = 3)
+    public void SetNearTiles(Vector3Int centerTile, int range = 1)
     {
-        // Iterate in a plus shape (up, down, left, right)
-        for (int i = -plusSize; i <= plusSize; i++)
+        for (int i = -range; i <= range; i++)
         {
-            Vector3Int[] checkTiles =
+            for (int j = -range; j <= range; j++)
             {
-            centerTile + new Vector3Int(0, i, 0),  // Vertical (up/down)
-            centerTile + new Vector3Int(0, -i, 0),
-            centerTile + new Vector3Int(i, 0, 0),  // Horizontal (left/right)
-            centerTile + new Vector3Int(-i, 0, 0)
-        };
+                Vector3Int adjacentTile = centerTile + new Vector3Int(i, j, 0);
 
-            foreach (Vector3Int adjacentTile in checkTiles)
-            {
-                // Check if the tile exists and is NOT already discovered
-                if (tileStates.ContainsKey(adjacentTile) && tileStates[adjacentTile].visibility != TileStateVisibility.Discovered)
+                // Conditions to match your cross-like pattern
+                bool isCross = (i == 0 || j == 0);  // Up, down, left, right
+                bool isInnerDiagonal = (Mathf.Abs(i) == Mathf.Abs(j) && Mathf.Abs(i) < range); // Inner diagonals
+
+                if ((isCross || isInnerDiagonal) && tileStates.ContainsKey(adjacentTile))
                 {
-                    tileStates[adjacentTile].visibility = TileStateVisibility.Near;
-                    UpdateTileVisual(adjacentTile);
+                    if (tileStates[adjacentTile].visibility != TileStateVisibility.Discovered)
+                    {
+                        tileStates[adjacentTile].visibility = TileStateVisibility.Near;
+                        tilemap.SetColor(adjacentTile, nearColor);
+
+                    }
                 }
             }
         }
 
         // RefreshTileColors();
     }
+
+
+
 
     private void OnApplicationQuit()
     {
