@@ -8,6 +8,8 @@ public class TileState
 
     public TileStateVisibility visibility;
     public int clickCount;
+    //variable to track how many clicks it needs to be discovered
+    public int clicksToDiscover; // How many clicks to discover the tile
 }
 public enum TileStateVisibility
 {

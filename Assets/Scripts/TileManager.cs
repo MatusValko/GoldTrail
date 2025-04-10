@@ -273,12 +273,22 @@ public class TileManager : MonoBehaviour
             for (int j = -range; j <= range; j++)
             {
                 Vector3Int adjacentTile = centerTile + new Vector3Int(i, j, 0);
+                if (!tileStates.ContainsKey(adjacentTile)) continue;
+
+                // int distance = Mathf.Abs(i) + Mathf.Abs(j); // Manhattan distance from center
+                // int discoveryCost = Mathf.Max(1, distance); 
+
 
                 // Conditions to match your cross-like pattern
                 bool isCross = (i == 0 || j == 0);  // Up, down, left, right
-                bool isInnerDiagonal = (Mathf.Abs(i) == Mathf.Abs(j) && Mathf.Abs(i) < range); // Inner diagonals
+                bool isDiagonal = (Mathf.Abs(i) == Mathf.Abs(j) && Mathf.Abs(i) < range); // Inner diagonals
 
-                if ((isCross || isInnerDiagonal) && tileStates.ContainsKey(adjacentTile))
+
+                // bool isCross = (i == 0 || j == 0);
+
+                // // Diagonal expansion (progressive difficulty)
+                // bool isDiagonal = Mathf.Abs(i) == Mathf.Abs(j) && Mathf.Abs(i) <= range;
+                if (isCross || isDiagonal)
                 {
                     if (tileStates[adjacentTile].visibility != TileStateVisibility.Discovered)
                     {
