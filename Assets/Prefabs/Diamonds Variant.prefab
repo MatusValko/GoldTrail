@@ -38,11 +38,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403603402710683263, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 140
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 403603402710683263, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 55
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 403603402710683263, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
       propertyPath: m_LocalPosition.x
@@ -92,6 +92,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1336392308576879374, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431205123740462719, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.6
+      objectReference: {fileID: 0}
     - target: {fileID: 1894115825765267291, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
       propertyPath: m_text
       value: 2532
@@ -114,11 +122,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5079732204292003602, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 118
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 5079732204292003602, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -5
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175064666990807209, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
+      propertyPath: m_text
+      value: 69 420
       objectReference: {fileID: 0}
     - target: {fileID: 7131126768982907617, guid: 775e95fe3d58f314e9dca9c9b8a95709, type: 3}
       propertyPath: m_SizeDelta.x
