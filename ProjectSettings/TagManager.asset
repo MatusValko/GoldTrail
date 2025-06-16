@@ -41,7 +41,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UI-basic
+  - name: UI-Game
+    uniqueID: 3259289089
+    locked: 0
+  - name: 'UI-Main '
     uniqueID: 1576894095
     locked: 0
   - name: PopUpWindow

@@ -58,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -251,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SharkRise_0: 5607977107722255706
+      SharkRise_1: 1069844678535052310
+      SharkRise_2: -8630518830704834946
+      SharkRise_3: 2194035510477275615
+      SharkRise_4: 4465326957109729858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
