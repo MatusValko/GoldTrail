@@ -18,8 +18,10 @@ public class SafeAreaFitter : MonoBehaviour
         Fit();
     }
 
+#if UNITY_EDITOR
     private void Update()
     {
+        // Check if the screen size, safe area, or orientation has changed
         if (Screen.width != _lastScreenSize.x
             || Screen.height != _lastScreenSize.y
             || Screen.safeArea != _lastSafeArea
@@ -32,6 +34,7 @@ public class SafeAreaFitter : MonoBehaviour
             Fit();
         }
     }
+#endif
 
     private void Fit()
     {

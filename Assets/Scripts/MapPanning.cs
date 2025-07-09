@@ -102,6 +102,26 @@ public class MapPanningZooming : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0)) // Left click
         {
+            // // If clicked on UI, do nothing, use raycast to check if pointer is over UI
+            // PointerEventData pointerData = new PointerEventData(EventSystem.current)
+            // {
+            //     position = Input.mousePosition
+            // };
+            // var raycastResults = new System.Collections.Generic.List<RaycastResult>();
+            // EventSystem.current.RaycastAll(pointerData, raycastResults);
+            // if (raycastResults.Count > 0)
+            // {
+            //     // DebugLogger.Log("Pointer is over a UI element");
+            //     //Debug log raycast results
+            //     foreach (var result in raycastResults)
+            //     {
+            //         DebugLogger.Log($"Raycast hit: {result.gameObject.name} at position {result.worldPosition}");
+            //     }
+            //     // Pointer is over a UI element
+            //     return;
+            // }
+
+
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector3Int tilePos = tilemap.WorldToCell(mouseWorldPos);
             TileBase clickedTile = tilemap.GetTile(tilePos);
