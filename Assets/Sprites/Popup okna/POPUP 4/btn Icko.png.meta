@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      btn Icko_0: -1201422173538063387
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

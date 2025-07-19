@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "posuvnik vysvieten\xFD_0": -8265945151839282764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

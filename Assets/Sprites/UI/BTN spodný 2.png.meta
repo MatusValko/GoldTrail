@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "BTN spodn\xFD 2_0": -6786717193021095224
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

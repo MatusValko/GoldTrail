@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NahladTRADING_0: 4119387936304216367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
