@@ -9,7 +9,7 @@ public class GridSize : MonoBehaviour
     void Start()
     {
         // Get the bounds of the tilemap
-        BoundsInt bounds = TileManager.instance.bounds;
+        BoundsInt bounds = TileManager.Instance.bounds;
 
         // Calculate width and height
         int width = bounds.size.x;

@@ -1,0 +1,20 @@
+{
+    "asset": "88191e6431f3cc8448f1c5541bb13a04",
+    "fileName": "019822b2-6ecd-731b-9a10-d564ee91526c.jpg",
+    "prompt": "replace bulls with chickens ",
+    "negativePrompt": "",
+    "model": "eb31cd12-d2ef-407a-87b4-f4a1126a2891",
+    "modelName": "Overworld Maps",
+    "customSeed": -1,
+    "w3CTraceId": "b5d49bfa16e406b732b83d9c0498f06f",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

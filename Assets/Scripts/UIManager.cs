@@ -37,7 +37,7 @@ public class UIManager : MonoBehaviour
     //show the tile info window
     public void ShowTileInfoWindow(Vector3Int tilePos, string tileName = "name", string tileDescription = "desc")
     {
-        TileBase clickedTile = TileManager.instance.tilemap.GetTile(tilePos);
+        TileBase clickedTile = TileManager.Instance.tilemap.GetTile(tilePos);
         // Set the position of the TileInfoWindow to the specified position
         if (clickedTile == null)
         {
@@ -46,7 +46,7 @@ public class UIManager : MonoBehaviour
         }
 
         _tileNameText.text = clickedTile.name;
-        _tileDescriptionText.text = "Total Clicks: " + TileManager.instance.GetClickCount(tilePos).ToString(); // Assuming you want to show the type of the tile
+        _tileDescriptionText.text = "Total Clicks: " + TileManager.Instance.GetClickCount(tilePos).ToString(); // Assuming you want to show the type of the tile
 
         // Set the text of the TileInfoWindow to the specified tile name and description
         // Assuming you have a TextMeshProUGUI component in your TileInfoWindow GameObject

@@ -12,7 +12,7 @@ public class TileManager : MonoBehaviour
 
     private string saveFilePath;
 
-    public static TileManager instance;
+    public static TileManager Instance;
     public Color discoveredColor = Color.white;
     public Color nearColor = Color.gray;
     public Color hiddenColor = Color.black;
@@ -20,13 +20,13 @@ public class TileManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
         }
         else
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
 
         if (tilemap == null)
@@ -39,9 +39,34 @@ public class TileManager : MonoBehaviour
 
     private void Start()
     {
-        saveFilePath = Path.Combine(Application.persistentDataPath, "tileSaveDataTest.json");
+        // saveFilePath = Path.Combine(Application.persistentDataPath, "tileSaveDataTest.json");
+        // _createNewGame();
+        // InitializeTiles();
 
-        LoadProgress(); // Load saved tile data
+        // LoadProgress(); // Load saved tile data
+    }
+    private void _createNewGame()
+    {
+        foreach (Vector3Int pos in bounds.allPositionsWithin)
+        {
+            if (tilemap.HasTile(pos) && !tileStates.ContainsKey(pos))
+            {
+
+                tileStates[pos] = new TileState { visibility = TileStateVisibility.Hidden };
+                // DebugLogger.Log($"Tile at {pos} initialized as Hidden.");
+            }
+            // UpdateTileVisual(pos);
+        }
+        //set disvoered color center tile
+        Vector3Int centerTile = new Vector3Int(0, 0, 0);
+        if (tilemap.HasTile(centerTile))
+        {
+            tileStates[centerTile].visibility = TileStateVisibility.Discovered;
+            tilemap.SetColor(centerTile, discoveredColor);
+            SetNearTiles(centerTile, 2);
+        }
+        DebugLogger.Log("Tile progress initialized!");
+        RefreshTileColors(); // Refresh colors based on initialized data
     }
 
     private void InitializeTiles()
@@ -58,11 +83,7 @@ public class TileManager : MonoBehaviour
         }
 
 
-
-    }
-
-    private void Update()
-    {
+        // RefreshTileColors();
 
     }
 
@@ -182,7 +203,6 @@ public class TileManager : MonoBehaviour
         foreach (var tile in tileStates)
         {
             Color colorToSet = hiddenColor; // Default to hidden (black)
-
             switch (tile.Value.visibility)
             {
                 case TileStateVisibility.Discovered:
@@ -195,7 +215,6 @@ public class TileManager : MonoBehaviour
                     colorToSet = hiddenColor;
                     break;
             }
-
             tilemap.SetColor(tile.Key, colorToSet);
         }
     }
@@ -234,36 +253,12 @@ public class TileManager : MonoBehaviour
             }
 
             DebugLogger.Log("Tile progress loaded!");
+            RefreshTileColors(); // Refresh colors based on initialized data
         }
         else
         {
-            DebugLogger.Log("No save data found!.");
-            // Initialize tiles if no save data exists
-            // InitializeTiles(); // Uncomment if you want to initialize tiles when no save data is found
-            // Or you can set a default state for all tiles
-            foreach (Vector3Int pos in bounds.allPositionsWithin)
-            {
-                if (tilemap.HasTile(pos) && !tileStates.ContainsKey(pos))
-                {
-                    tileStates[pos] = new TileState { visibility = TileStateVisibility.Hidden };
-                }
-                // UpdateTileVisual(pos);
-            }
-            //set disvoered color center tile
-            Vector3Int centerTile = new Vector3Int(0, 0, 0);
-            if (tilemap.HasTile(centerTile))
-            {
-                tileStates[centerTile].visibility = TileStateVisibility.Discovered;
-                tilemap.SetColor(centerTile, discoveredColor);
-                SetNearTiles(centerTile, 2);
-            }
-
-
-            DebugLogger.Log("Tile progress initialized!");
+            _createNewGame();
         }
-
-        RefreshTileColors(); // Refresh colors based on initialized data
-
     }
 
     public void SetNearTiles(Vector3Int centerTile, int range = 1)
@@ -308,6 +303,6 @@ public class TileManager : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        SaveProgress();
+        // SaveProgress();
     }
 }
