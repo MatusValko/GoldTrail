@@ -1,0 +1,833 @@
+fileFormatVersion: 2
+guid: d706abe34bf670e498f22c8da42582bb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bank
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1548
+        width: 509
+        height: 307
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.49185666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddd5c5a7ffd0f6479e1f1d4a8c8a823
+      internalID: -727284632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1181
+        width: 508
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.48859936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c60cc6910b9c2949bcc5c30f2705880
+      internalID: -1087407100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Church
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1270
+        width: 508
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.45180723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1679993d40efd5c48a81378e4d10735f
+      internalID: -587453683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distillery
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1447
+        width: 511
+        height: 330
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e714882728d2f438340c1eab948d77
+      internalID: 1086023725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1127
+        width: 511
+        height: 327
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.4587156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f575277cb8ba71d4a9e441269432a9f3
+      internalID: -927492173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroceryStore
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 955
+        width: 508
+        height: 312
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.48397437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b82612f02907845aeb712501da1a41
+      internalID: -347725413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverCross
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 806
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70bf94308352ef45bb5448955df4b2b
+      internalID: -1854389878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverCurveLB
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 163
+        width: 508
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9ddea51add14a4582c32af2b218045
+      internalID: -2016359748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverCurveLT
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1746
+        width: 508
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.49668875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5628cdadd5fc4db4b9805852ebfe9b7b
+      internalID: -1091788203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverCurveRB
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 907
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f0761d17090014cb42cdaa8bf72578
+      internalID: 852039771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverCurveRT
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 0
+        width: 508
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5102041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cd16a43bdfd6548a2e388b22b89f6f
+      internalID: 385460000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverL1
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 649
+        width: 508
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9a3dcbbd6df444fbd5d58e7a01eb8b
+      internalID: -887182636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverL2
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1548
+        width: 508
+        height: 317
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4731861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04147ada6ad407f4fa926808864dd0d7
+      internalID: 498979301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverL3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 370
+        width: 508
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4718679c3eab6af4bb7599ef94d6c3ef
+      internalID: 1055321769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverR1
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 657
+        width: 508
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5033557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493129a1d9eec55449f57b599cfddd16
+      internalID: 1108508500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverR2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1730
+        width: 508
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4716981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ca1d51107c11c499fcd67668d2ecee
+      internalID: -1223644341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverR3
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 797
+        width: 508
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.50167227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060dd62d2d8086940a5f4c91a3e2fd86
+      internalID: 892576536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverTCrossL1
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 459
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5101351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4def9a0300ad764e8a490e4cbad5d0e
+      internalID: -2059602725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverTCrossL2
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 312
+        width: 508
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13c690fb0ac38f4e940501f7baaa0a6
+      internalID: 1084242393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverTcrossR1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1392
+        width: 508
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.47335422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57883d9e735783243aabf9e0c7e63cea
+      internalID: 572921269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiverTcrossR2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 668
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00be5b8cef9b8ab45a61824e55873106
+      internalID: 1319034034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saloon
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1711
+        width: 508
+        height: 337
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.4480712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f156d16a4b0451a409a3cec2d94a7748
+      internalID: -2139397518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SheriffsOffice
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1372
+        width: 508
+        height: 308
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.48701298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea300f7fea9871342bcef627f58334c2
+      internalID: -479984899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailor
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1104
+        width: 508
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.47923324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ed3a7b39c57994580b08f7c7508d36
+      internalID: 1185725657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterPondWithWaterLilies
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 515
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abcc074cea873b4ab381f74a708ca10
+      internalID: 1413837453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSea
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 822
+        width: 510
+        height: 297
+      alignment: 9
+      pivot: {x: 0.49803922, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fad00e434770d4c875328d1fac4236
+      internalID: -2097412937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSmallPond
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1226
+        width: 505
+        height: 311
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.48553056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01f4592cdc3b694898cb91f0bedfbc7
+      internalID: 445895103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterWaterfall
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1636
+        width: 510
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47040498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eec8ee5e88505e4c99f11d2b65b04f2
+      internalID: 684988147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterWithFish
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 950
+        width: 510
+        height: 297
+      alignment: 9
+      pivot: {x: 0.49803922, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8ec0e8b3477f844b968665f94f0b34
+      internalID: -164751611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterWithGold
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1064
+        width: 512
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b672b6fc0adf414ca34df3d091682f5
+      internalID: 797407684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6da7d404dc7030d4bb47ac8744d3f35a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bank: -727284632
+      Blacksmith: -1087407100
+      Church: -587453683
+      Distillery: 1086023725
+      Doctor: -927492173
+      GroceryStore: -347725413
+      RiverCross: -1854389878
+      RiverCurveLB: -2016359748
+      RiverCurveLT: -1091788203
+      RiverCurveRB: 852039771
+      RiverCurveRT: 385460000
+      RiverL1: -887182636
+      RiverL2: 498979301
+      RiverL3: 1055321769
+      RiverR1: 1108508500
+      RiverR2: -1223644341
+      RiverR3: 892576536
+      RiverTCrossL1: -2059602725
+      RiverTCrossL2: 1084242393
+      RiverTcrossR1: 572921269
+      RiverTcrossR2: 1319034034
+      Saloon: -2139397518
+      SheriffsOffice: -479984899
+      Tailor: 1185725657
+      WaterPondWithWaterLilies: 1413837453
+      WaterSea: -2097412937
+      WaterSmallPond: 445895103
+      WaterWaterfall: 684988147
+      WaterWithFish: -164751611
+      WaterWithGold: 797407684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

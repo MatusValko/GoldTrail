@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: 88191e6431f3cc8448f1c5541bb13a04
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: canyonCross
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 210
+        width: 506
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5067114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61922d2d223d2a3419fd9e35b66373ec
+      internalID: 1115881234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonCurveLB
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 628
+        width: 507
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5009862, y: 0.5067114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b236a54be70f8548b00ced9ad6c7629
+      internalID: 1909333857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonCurveLT
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 360
+        width: 507
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5009862, y: 0.5067114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca8bd55f80523f4fb7507861918c7f6
+      internalID: -2051884133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonCurveRB
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 926
+        width: 509
+        height: 297
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba04b62d8350b2e4aa1666721fbaebb4
+      internalID: 1675275388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonCurveRT
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 572
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb59036a08f0c94e874d885f55515cb
+      internalID: 1966811632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonEndDownLeft
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 153
+        width: 507
+        height: 296
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a27824619c0ee49acef9fbc17aceb1
+      internalID: 420527535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonEndDownRight
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 310
+        width: 507
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5029586, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a88f69760568245b93b7a61374038c
+      internalID: -1186855034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonEndUpLeft
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1510
+        width: 508
+        height: 302
+      alignment: 9
+      pivot: {x: 0.503937, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37307711ef0f4b7408c7243575df3e09
+      internalID: 2047237958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonEndUpRight
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 950
+        width: 511
+        height: 297
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65047755db9ffa74eb769a00b10e0e51
+      internalID: 2102185470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonMiddleLeft
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 510
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6de45ecd52e18f4e8248d2d613915e7
+      internalID: -1796050722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonMiddleRight
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 507
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5029586, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22d56550f254a240a95a249399da464
+      internalID: -2121744623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanyonSingleTileRift1
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 9
+        width: 505
+        height: 297
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5581006c165c8a44483e53e392a7bbe8
+      internalID: -555434291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanyonSingleTileRift2
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 178
+        width: 506
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5067114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81a430ef81d0334888b42a987e6a579
+      internalID: 187091344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonTcrossL1
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 721
+        width: 509
+        height: 297
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978e7bb9c43e6674db9021887381a023
+      internalID: 1994375167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonTcrossL2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 329
+        width: 507
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5029586, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de60eed217b80443a3f3ab934104348
+      internalID: -225057156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonTcrossR1
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 478
+        width: 506
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5067114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2228a1566210a4fb6b720a48e64d79
+      internalID: 1394400787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canyonTcrossR2
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 29
+        width: 506
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db98128e0a7fa9d4194513b2c65bbeea
+      internalID: 1971437448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanyonWithDestroyedRopeBridge
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 659
+        width: 509
+        height: 296
+      alignment: 9
+      pivot: {x: 0.502947, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b262fa35a289524aae9e53eed10eb08
+      internalID: -1025135007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CattlePasture
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 867
+        width: 508
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5033557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e18f0d973f29704b93c5902c2fe1a9f
+      internalID: 377621751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FencedMeadowsWithHorses
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1078
+        width: 508
+        height: 328
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45731708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bcf286845345d4596a4fbd6359dc2e
+      internalID: -2103001204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldAgave
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1251
+        width: 511
+        height: 311
+      alignment: 9
+      pivot: {x: 0.50097847, y: 0.4790997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e356bdc94a30e64b8703ba96a887c72
+      internalID: 1622806685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldCotton
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1415
+        width: 510
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46296296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778b2d499a37c26488cbb45ed51966a9
+      internalID: 1734326743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldOrchard
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1713
+        width: 508
+        height: 335
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.4477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad41e8e0b66534741ad017c2d33c0d7b
+      internalID: 581601033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldSugarCane
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1545
+        width: 508
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4491018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e37e1dbd9c2c842aba291f2b82a78c
+      internalID: -1001318105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldWheat
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1241
+        width: 508
+        height: 330
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c1c0e8eb795594fa8b7c6185ea87c4
+      internalID: -665590965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FieldWildFlowers
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1448
+        width: 508
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.47468355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8f9267e7f52724dbf71e908d6e7457
+      internalID: -2059216325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NativeVillage1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c40786197dc05459e3014a1b9352b7
+      internalID: -1633176295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NativeVillage2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1053
+        width: 506
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4901316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb512ebe6aa00534fbb5d7bb6eac88af
+      internalID: -330020651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NativeVillage3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1622
+        width: 511
+        height: 316
+      alignment: 9
+      pivot: {x: 0.50097847, y: 0.47468355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356c8f96080425346a8b48b6f818ec64
+      internalID: 1115506438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSettlements1
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1747
+        width: 511
+        height: 301
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.5016611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87be1f5885f34d04bbd6aae62531ce96
+      internalID: -1320840595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSettlements2
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1717
+        width: 508
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5377644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0b2b46a86a5924281be7112672d603
+      internalID: -1976813153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSettlements3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1366
+        width: 511
+        height: 330
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49169860f9067a24d91a60089ff512b0
+      internalID: 812584867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SheepHerd
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1297
+        width: 508
+        height: 301
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.49833888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3ebb69a11419f489f19f91c0678760
+      internalID: 876527293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TravelingMerchant
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 508
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5102041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2646bff421b1e40bccf9f85318b98f
+      internalID: 535408782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 11b42a078a2a15845a3feb0dc200d51e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CanyonSingleTileRift1: -555434291
+      CanyonSingleTileRift2: 187091344
+      CanyonWithDestroyedRopeBridge: -1025135007
+      CattlePasture: 377621751
+      FencedMeadowsWithHorses: -2103001204
+      FieldAgave: 1622806685
+      FieldCotton: 1734326743
+      FieldOrchard: 581601033
+      FieldSugarCane: -1001318105
+      FieldWheat: -665590965
+      FieldWildFlowers: -2059216325
+      NPCSettlements1: -1320840595
+      NPCSettlements2: -1976813153
+      NPCSettlements3: 812584867
+      NativeVillage1: -1633176295
+      NativeVillage2: -330020651
+      NativeVillage3: 1115506438
+      SheepHerd: 876527293
+      TravelingMerchant: 535408782
+      canyonCross: 1115881234
+      canyonCurveLB: 1909333857
+      canyonCurveLT: -2051884133
+      canyonCurveRB: 1675275388
+      canyonCurveRT: 1966811632
+      canyonEndDownLeft: 420527535
+      canyonEndDownRight: -1186855034
+      canyonEndUpLeft: 2047237958
+      canyonEndUpRight: 2102185470
+      canyonMiddleLeft: -1796050722
+      canyonMiddleRight: -2121744623
+      canyonTcrossL1: 1994375167
+      canyonTcrossL2: -225057156
+      canyonTcrossR1: 1394400787
+      canyonTcrossR2: 1971437448
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

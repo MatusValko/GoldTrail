@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: d74cb5275a211c241a088da8d0201ac8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FarmLvl1
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 966
+        width: 508
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4854369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf38742abb64c141903e7329a21f350
+      internalID: 1104033813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmLvl2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1530
+        width: 508
+        height: 336
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.44642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbced63b3451044483d48a2e4f42007
+      internalID: -685171486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmLvl3
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1348
+        width: 508
+        height: 329
+      alignment: 9
+      pivot: {x: 0.4980315, y: 0.45592704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12c0487395b09b489d2978b2262abab
+      internalID: 1197133594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmLvl4
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1175
+        width: 506
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4716981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6cc24e46320754b95cc444b6521a5d
+      internalID: 1767472923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmLvl5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1712
+        width: 508
+        height: 336
+      alignment: 9
+      pivot: {x: 0.4980315, y: 0.44642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af960fcc47c1ef245be8b7d723360ee7
+      internalID: 598463949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineLvl1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 871
+        width: 508
+        height: 308
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.48701298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7940a5341165541a35f9125a5c8604
+      internalID: 1052264673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineLvl2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1539
+        width: 511
+        height: 314
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.477707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57625af5316ebbc4b940a940de32fba4
+      internalID: 989962624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineLvl3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1136
+        width: 511
+        height: 315
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542ed796119b382428ade1e51a492057
+      internalID: -521563765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineLvl4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1324
+        width: 509
+        height: 319
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.47021943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8f4b747a912e1419f1a315babc0793
+      internalID: 975246602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MineLvl5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1729
+        width: 509
+        height: 319
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.47021943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04010e1c651fd584c8e0daa61f2fa509
+      internalID: 1956372123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RanchLvl1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 472
+        width: 507
+        height: 316
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.4778481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07071bf7647507478f9e11c317fca3c
+      internalID: 865707428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RanchLvl2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 719
+        width: 507
+        height: 316
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.4778481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc806cff394dbf49880f3d0ccbcdc17
+      internalID: -487446230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RanchLvl3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 642
+        width: 507
+        height: 316
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.4778481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a028abfb42a8b14a9bdc05f57585329
+      internalID: -335179603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RanchLvl4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 889
+        width: 507
+        height: 316
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.4778481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53eca98959365a48b3779cf9ce75b92
+      internalID: 452817986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RanchLvl5
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1358
+        width: 507
+        height: 316
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.4778481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a259dc24f073e4fac3d3429c33d9f5
+      internalID: -2030760715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SawMillLvl1
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 926
+        width: 508
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4854369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1fbf8a3876d484e9f497855630825b
+      internalID: -636677074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SawMillLvl2
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1724
+        width: 508
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4854369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd1e615f57a7dd448248d45df88574d
+      internalID: 371979145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SawMillLvl3
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1558
+        width: 508
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4854369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ed22fdab1bc743b42dac5e9a71cd2
+      internalID: 561372963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SawMillLvl4
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1739
+        width: 508
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4854369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab93fecef4dbb294a908ec415962c4c3
+      internalID: 66741298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SawMillLvl5
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1185
+        width: 508
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4854369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c27bf726e82bf47af04c7d204b5aae
+      internalID: 1023640857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WellLvL1
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 374
+        width: 506
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f2e1994be1c4744b209e0d3cd66d47
+      internalID: 551789239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WellLvl2
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 738
+        width: 508
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5033557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8564644914a73498dd016e95f9ad98
+      internalID: -479130090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WellLvl3
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 312
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9487fb0de9a629469d4ab4726425ba4
+      internalID: -354907321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WellLvL4
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1102
+        width: 508
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4854369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1137c8edd38a0349834c78c8abb2153
+      internalID: 1601529183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WellLvl5
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 542
+        width: 505
+        height: 303
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.49174917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5821ce505cc21a428fcb17dfc00f409
+      internalID: 1429088675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 56291440bbe5ed24ab53c3f81c3a2304
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FarmLvl1: 1104033813
+      FarmLvl2: -685171486
+      FarmLvl3: 1197133594
+      FarmLvl4: 1767472923
+      FarmLvl5: 598463949
+      MineLvl1: 1052264673
+      MineLvl2: 989962624
+      MineLvl3: -521563765
+      MineLvl4: 975246602
+      MineLvl5: 1956372123
+      RanchLvl1: 865707428
+      RanchLvl2: -487446230
+      RanchLvl3: -335179603
+      RanchLvl4: 452817986
+      RanchLvl5: -2030760715
+      SawMillLvl1: -636677074
+      SawMillLvl2: 371979145
+      SawMillLvl3: 561372963
+      SawMillLvl4: 66741298
+      SawMillLvl5: 1023640857
+      WellLvL1: 551789239
+      WellLvL4: 1601529183
+      WellLvl2: -479130090
+      WellLvl3: -354907321
+      WellLvl5: 1429088675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

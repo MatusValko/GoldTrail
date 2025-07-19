@@ -1,8 +1,35 @@
 version: 2
 tpsheetFileNames:
 - Assets/Sprites/Sheets/UnityPresetDefault1.tpsheet
+- Assets/Tiles/AtlasyUnity/atlas1.tpsheet
+- Assets/Tiles/AtlasyUnity/atlas2.tpsheet
+- Assets/Tiles/AtlasyUnity/atlas3.tpsheet
+- Assets/Tiles/AtlasyUnity/atlas4.tpsheet
+- Assets/Tiles/AtlasyUnity/atlas5nezaradene.tpsheet
+- Assets/Tiles/AtlasyUnity/AtlasRivers.tpsheet
+- Assets/Tiles/AtlasyUnity/atlasRoads1.tpsheet
+- Assets/Tiles/AtlasyUnity/atlasRoads2.tpsheet
+- Assets/Tiles/AtlasyUnity/atlasRoads3.tpsheet
 textureFileNames:
 - Assets/Sprites/Sheets/UnityPresetDefault1.png
+- Assets/Tiles/AtlasyUnity/atlas1.png
+- Assets/Tiles/AtlasyUnity/atlas2.png
+- Assets/Tiles/AtlasyUnity/atlas3.png
+- Assets/Tiles/AtlasyUnity/atlas4.png
+- Assets/Tiles/AtlasyUnity/atlas5nezaradene.png
+- Assets/Tiles/AtlasyUnity/AtlasRivers.png
+- Assets/Tiles/AtlasyUnity/atlasRoads1.png
+- Assets/Tiles/AtlasyUnity/atlasRoads2.png
+- Assets/Tiles/AtlasyUnity/atlasRoads3.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 enableDebugOutput: 0

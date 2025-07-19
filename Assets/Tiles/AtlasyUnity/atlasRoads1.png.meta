@@ -1,0 +1,902 @@
+fileFormatVersion: 2
+guid: f71b883db9c5a5a479e4cec5cec251c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RailTrackCurveB
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 716
+        width: 512
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50501674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7c1045b9828a240aa1a9d2e84adfc0
+      internalID: 789892632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackCurveL
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1638
+        width: 505
+        height: 297
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd66c361b073d8489743c2e45d38048
+      internalID: 986878526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackCurveR
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1251
+        width: 509
+        height: 297
+      alignment: 9
+      pivot: {x: 0.49705306, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41b2fc1961c9574c9fec1f93da5b80c
+      internalID: -438804710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackCurveT
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1021
+        width: 508
+        height: 303
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.49834985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c85d46213d17f4ba12fa801bf1d15a
+      internalID: 403260333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackL1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 509
+        height: 297
+      alignment: 9
+      pivot: {x: 0.502947, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8672b9949d1bb445b1fab6c9ac4e661
+      internalID: -1683827051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackL2
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1746
+        width: 505
+        height: 302
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a0c13b81bac3e44a4e41be6f8e2b1f
+      internalID: -1462047124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackL3
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1494
+        width: 505
+        height: 297
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77949aa07ee3bc24dae1a911f3c38cd5
+      internalID: 746928162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackR1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1371
+        width: 512
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a109a1e03446344b822282d929b656
+      internalID: 126968657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackR2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 650
+        width: 512
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d2a3294262ce845aed674f43c3ad88
+      internalID: 328708300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailTrackR3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1145
+        width: 508
+        height: 308
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.49025974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c3050d287781948ad7c73fec60bfba
+      internalID: -2083338320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtCanyonBridgeL
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1248
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816dfa63eeb45714d9493ed27e8e34d7
+      internalID: 307153408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtCanyonBridgeR
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 118
+        width: 505
+        height: 296
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c289f843168cb804a80c85d48b25ec19
+      internalID: -1550636241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtCurveB
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 873
+        width: 509
+        height: 296
+      alignment: 9
+      pivot: {x: 0.502947, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2739563c74b5844b58638f382ba55a
+      internalID: 792803467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtCurveL
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 126
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fce0d8c20dd01438e0c7f3d19221b3
+      internalID: -2094752640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtCurveR
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 274
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee671a0ef8c05499a805bd71efce69
+      internalID: -665959283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtCurveT
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 514
+        width: 508
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.50167227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb461f499e09c447b61a46f386cd89b
+      internalID: -465266821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtL1
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 579
+        width: 505
+        height: 296
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35fef865b446ed4589df0ebb12b9e87
+      internalID: -823094530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtL2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 408
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af03e99f54bcc2149b5d5587425f6202
+      internalID: -1057465554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtL3
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 559
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078b3b625f3cd3a4b88e538ef13f7167
+      internalID: 1948270621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtR1
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 725
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eaf2ddfde381b46a3fc1ad60142158
+      internalID: 1103681253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtR2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 508
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5102041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7488101996d9f1644a22ec13019ad27f
+      internalID: -1159902586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtR3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 987
+        width: 508
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.48859936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77240b9948c562d46a6e41c7abf927f2
+      internalID: 1775586715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtRiverBridgeL
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1399
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c33cbded5c4c4da522c2aa334defd
+      internalID: -1307399231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtRiverBridgeR
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 267
+        width: 508
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79bd44ddd33b8c4392028c2aa155106
+      internalID: 70926635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtTcrossLB
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1102
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290cf3d8c7c9e08498a16093dedaa889
+      internalID: 349682118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtTcrossLT
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 946
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdaacdd8328647468cd319fa827529f
+      internalID: 14643722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtTcrossRB
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1271
+        width: 508
+        height: 308
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.49025974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c81780d2ed287d43b94565a05bfec51
+      internalID: 1255243731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtTcrossRT
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 867
+        width: 506
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0475f98fd6357714b838cc5dfc62b180
+      internalID: -825468523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadDirtXCross
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1660
+        width: 508
+        height: 309
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.48867315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c67648aea68cd841bb4025a9a56bfe0
+      internalID: -546688392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelCanyonBridgeL
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1094
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3a8f8b1cc190e4786f0b0c1a1529a5
+      internalID: 1376914651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelCanyonBridgeR
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 0
+        width: 505
+        height: 295
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4e8a1b96a009d4c96f8cb906b98fea
+      internalID: -856435691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainStationL
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1488
+        width: 507
+        height: 312
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.48076922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d57851439ec8714abebdffc67665adc
+      internalID: -2017154651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainStationR
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1715
+        width: 508
+        height: 333
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.45045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1296aa075e978340ab4d8f570a44e67
+      internalID: 914101354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 40c84d72c06c9054d8545b2e05832362
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RailTrackCurveB: 789892632
+      RailTrackCurveL: 986878526
+      RailTrackCurveR: -438804710
+      RailTrackCurveT: 403260333
+      RailTrackL1: -1683827051
+      RailTrackL2: -1462047124
+      RailTrackL3: 746928162
+      RailTrackR1: 126968657
+      RailTrackR2: 328708300
+      RailTrackR3: -2083338320
+      RoadDirtCanyonBridgeL: 307153408
+      RoadDirtCanyonBridgeR: -1550636241
+      RoadDirtCurveB: 792803467
+      RoadDirtCurveL: -2094752640
+      RoadDirtCurveR: -665959283
+      RoadDirtCurveT: -465266821
+      RoadDirtL1: -823094530
+      RoadDirtL2: -1057465554
+      RoadDirtL3: 1948270621
+      RoadDirtR1: 1103681253
+      RoadDirtR2: -1159902586
+      RoadDirtR3: 1775586715
+      RoadDirtRiverBridgeL: -1307399231
+      RoadDirtRiverBridgeR: 70926635
+      RoadDirtTcrossLB: 349682118
+      RoadDirtTcrossLT: 14643722
+      RoadDirtTcrossRB: 1255243731
+      RoadDirtTcrossRT: -825468523
+      RoadDirtXCross: -546688392
+      RoadGravelCanyonBridgeL: 1376914651
+      RoadGravelCanyonBridgeR: -856435691
+      TrainStationL: -2017154651
+      TrainStationR: 914101354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

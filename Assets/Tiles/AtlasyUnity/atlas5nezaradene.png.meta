@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 933bff9aa9ead9f4984511f938b6533e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: banickaOsada
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1469
+        width: 505
+        height: 315
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.47936508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b1b3698884d5f418a5ba3a1d1cf1eb
+      internalID: -125662263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farm
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1354
+        width: 505
+        height: 325
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.46461537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68165bd8e10de74183336097a187037
+      internalID: 1424048465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: field
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 873
+        width: 510
+        height: 297
+      alignment: 9
+      pivot: {x: 0.49803922, y: 0.5084175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4976593de6070f4198cfabbbb2e40dc
+      internalID: 208795028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mountain
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1720
+        width: 511
+        height: 328
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.46341464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3b2cb65e342c2429e263167c3d7312
+      internalID: 1114719209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opusteny zniceny karavan
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1024
+        width: 506
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4950495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67589a4d6ba4b241831b87bc7e3b132
+      internalID: -1343096154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opusteny zniceny vagon
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1468
+        width: 508
+        height: 308
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.48701298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211e4c711e6f3dd45afdb5b6b99b171e
+      internalID: -1071204807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opustenyVlak3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1278
+        width: 505
+        height: 318
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.47484276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09149eafccdb31a4689d7646d54345e0
+      internalID: 746715967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ovce
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1534
+        width: 508
+        height: 326
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4601227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d624145a15248de43b436429420cc87b
+      internalID: 111044587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renderTIlesSequence.FinalImageDefaultLayer.0000
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1707
+        width: 508
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.48231512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5390e0e393beb44b56294e29c79f3f
+      internalID: -1382713340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ropnepolia
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1361
+        width: 509
+        height: 302
+      alignment: 9
+      pivot: {x: 0.502947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6349c54f84d4f764eb3c7dbf7247c6ce
+      internalID: -795135513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swamp
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1712
+        width: 508
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4778481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d607352a40ce4d872fe3e762ab335
+      internalID: 2032416715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WildHorses
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1190
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a388ec75011b27c41a0d0fc874c8e0d2
+      internalID: 1221170648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zlataBanaClosed
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1737
+        width: 505
+        height: 311
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.48553056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273c108a052c2f14995d75e585d7efc7
+      internalID: -1300813033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zlataBanaOpen
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1094
+        width: 510
+        height: 311
+      alignment: 9
+      pivot: {x: 0.49803922, y: 0.48553056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe563098ca5c0e428f4c91490fd00ce
+      internalID: 188589113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 90a633955512ddb4d8a0ec775d4654d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Farm: 1424048465
+      Opusteny zniceny karavan: -1343096154
+      Opusteny zniceny vagon: -1071204807
+      Ovce: 111044587
+      WildHorses: 1221170648
+      banickaOsada: -125662263
+      field: 208795028
+      mountain: 1114719209
+      opustenyVlak3: 746715967
+      renderTIlesSequence.FinalImageDefaultLayer.0000: -1382713340
+      ropnepolia: -795135513
+      swamp: 2032416715
+      zlataBanaClosed: -1300813033
+      zlataBanaOpen: 188589113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

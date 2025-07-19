@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: cb8a8b19e6554724098cc24c94711484
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoadStoneCanyonBridgeL
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1089
+        width: 512
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5972222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e678f676cf2d43d47835c4bdbd1e4719
+      internalID: -812650758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneCanyonBridgeR
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1227
+        width: 508
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e787cc4c80d75ce42a1f349c15bcf951
+      internalID: 486829813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneCross
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 508
+        height: 401
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.638404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ffdd234a1c7174ab6c289ebbdba43c
+      internalID: -1414425782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneCurveLB
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1598
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe1a543704a3014fb32db1f8656a081
+      internalID: 1825969363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneCurveLT
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1566
+        width: 508
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.49342105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac052ba45e2a504f82cdbebe55e70e2
+      internalID: 768579242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneCurveRB
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1113
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9c6af6a1db36746a1d11aaa3fa2b6d
+      internalID: 688607825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneCurveRT
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1574
+        width: 508
+        height: 405
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.6320988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f8fa7136a6dbb47bd70722446b273d
+      internalID: 276828439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneL
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 951
+        width: 508
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5102041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975ce794535608346bd669bd61bf4c07
+      internalID: 803021496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneL2
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1261
+        width: 508
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.50501674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050157299a31ffd47afbfd61d5692ac2
+      internalID: -34387449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneL3
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 972
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c0c1e611a0d77469b827a642543fb4
+      internalID: 2130712564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneR
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1748
+        width: 508
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0858033e8efbd7743b10d69dc79028ec
+      internalID: -1739189181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneR2
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1313
+        width: 505
+        height: 329
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.45592704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee0c6c95e0e75e4d8c131157adc00f3
+      internalID: 1922389092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneR3
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1417
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbf500b16e2c4b46addfeeb16797595
+      internalID: -804791588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneTcrossL1
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1123
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f73d2f397720d4786cbeacd7a61446
+      internalID: 1951635824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneTcrossL2
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1454
+        width: 508
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe289a4212a4494594ab6be24a38c52
+      internalID: -687315430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneTcrossR1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 947
+        width: 511
+        height: 296
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef323421d161214e908cd9d5fd571ff
+      internalID: 1430752177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadStoneTcrossR2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1646
+        width: 511
+        height: 402
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.6368159}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e8f999e2b742443aab7da4f44e1838
+      internalID: -1692465475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9db3b6526bbef1842852937537bd2fb1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RoadStoneCanyonBridgeL: -812650758
+      RoadStoneCanyonBridgeR: 486829813
+      RoadStoneCross: -1414425782
+      RoadStoneCurveLB: 1825969363
+      RoadStoneCurveLT: 768579242
+      RoadStoneCurveRB: 688607825
+      RoadStoneCurveRT: 276828439
+      RoadStoneL: 803021496
+      RoadStoneL2: -34387449
+      RoadStoneL3: 2130712564
+      RoadStoneR: -1739189181
+      RoadStoneR2: 1922389092
+      RoadStoneR3: -804791588
+      RoadStoneTcrossL1: 1951635824
+      RoadStoneTcrossL2: -687315430
+      RoadStoneTcrossR1: 1430752177
+      RoadStoneTcrossR2: -1692465475
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

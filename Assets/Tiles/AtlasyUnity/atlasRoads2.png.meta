@@ -1,0 +1,971 @@
+fileFormatVersion: 2
+guid: 75cd4780eb80edd4da3677739f94f9e9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoadGravelCurveBB
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1652
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71423f6b40562a4a9b37bde32801ead
+      internalID: -96615943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelCurveL
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 208
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47d0dcb1a3d2c34b9f1891491ed9dd4
+      internalID: -108240332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelCurveR
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 358
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a395ae2e37d6d40b2997178ab9e1b9
+      internalID: -1038459781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelCurveT
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 491
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9577d7c28b771f24fa3ef234e831afff
+      internalID: 1177613744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelL1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 207
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a56d88769519f146906ee19603b343d
+      internalID: -1859727914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelL2
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 729
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0206aa615ee44014299aea47db50cf68
+      internalID: -358315190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelL3
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 355
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a10d215c782073428beb909129d7936
+      internalID: 1259367090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelR1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1744
+        width: 508
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.49342105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db216cc41170dac4ea3d12ec8bbc2638
+      internalID: 488760758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelR2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 508
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccad4d64fa8b964c8870252c7de1773
+      internalID: 1921900890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelR3
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 505
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bce5f4125a4d504c941c170db811c2d
+      internalID: -1941285810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelRiverBridgeL
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 639
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420e7f1f0c5fbd14e913d8845ea4c53c
+      internalID: 18267191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelRiverBridgeR
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 105
+        width: 508
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.50680274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c285c2dd0cba33e4dbba40d58c3797c3
+      internalID: -1662323979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelTcrossL1
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 880
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ceba7a32c7e6df4f8c2937d4409c547
+      internalID: 1647235224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelTcrossL2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1174
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c8b636a0b7b29499056187fe7b4f93
+      internalID: 1263387437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelTcrossR1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 354
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0fa428b56df594389216e289feb064
+      internalID: 267420183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelTcrossR2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 503
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3726f41547d23df40a6742fc242d7232
+      internalID: 2083538297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadGravelXCross
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 654
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01009b460c19a7749af11bb224960559
+      internalID: -1500427033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedBridgeRiverL
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1494
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12afb8235a09bc49bbce436ab3ef43e
+      internalID: 507873695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedBridgeRiverR
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1055
+        width: 509
+        height: 294
+      alignment: 9
+      pivot: {x: 0.502947, y: 0.50680274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4273630aac0acde48bcbb2e879f8db19
+      internalID: -715969615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedCanyonBridgeL
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1358
+        width: 507
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5029586, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc76c568e9a3724ea07a18c3471da2e
+      internalID: -950946888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedCanyonBridgeR
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1209
+        width: 507
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5009862, y: 0.5101351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a419bcdd73903834b97b435b64472abf
+      internalID: -1928970716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedCross
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 949
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be8d386de09f2d4f9fd508a6f152a62
+      internalID: -670500619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedCurveB
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1652
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5c5ed4a02813d4fa25a18a8de3e781
+      internalID: -1612805212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedCurveL
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 653
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027acebd9b98b03459d30ff044e13a62
+      internalID: 1836937300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedCurveR
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1088
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1664f9b67f81b944c9998f4dc8bd76ed
+      internalID: -1905646470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedCurveT
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 794
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4655bd9c1f1c3e47b7e3895eb97a94a
+      internalID: 1573085807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedL1
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1324
+        width: 508
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.50167227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766e6ca6c9f84ee48961242857709a1c
+      internalID: 1425696626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedL2
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1030
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2a2c030d26f4b49af5d41931b49471
+      internalID: 1814213798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedL3
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1504
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf903199579d364497a55574e60e61d
+      internalID: -355737957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedR1
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1345
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d287f8970ee0df45905c6b35e8d52b0
+      internalID: -143686859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedR2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1476
+        width: 508
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b7d4fc47a906d43a3e40151aec4d23
+      internalID: -571593943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedR3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 802
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b583df4808569814d9270e92943141fc
+      internalID: -937829633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedTcrossL1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 940
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5149b0784df995c4cb700b83cd2d0e67
+      internalID: -762020667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedTcrossL2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 57
+        width: 508
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5084746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df039a2651e4794aae54d0010d12c77
+      internalID: 765356920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedTcrossR1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1650
+        width: 506
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4901316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9f6ed94553ae34fa3e6d390ca523b3
+      internalID: -1161587254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoadHardenedTcrossR2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1250
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e174783e2451b4db23ec21443fc8d7
+      internalID: -430076077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ef1a176a0b1d06a4eaa12fd53dd049ad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RoadGravelCurveBB: -96615943
+      RoadGravelCurveL: -108240332
+      RoadGravelCurveR: -1038459781
+      RoadGravelCurveT: 1177613744
+      RoadGravelL1: -1859727914
+      RoadGravelL2: -358315190
+      RoadGravelL3: 1259367090
+      RoadGravelR1: 488760758
+      RoadGravelR2: 1921900890
+      RoadGravelR3: -1941285810
+      RoadGravelRiverBridgeL: 18267191
+      RoadGravelRiverBridgeR: -1662323979
+      RoadGravelTcrossL1: 1647235224
+      RoadGravelTcrossL2: 1263387437
+      RoadGravelTcrossR1: 267420183
+      RoadGravelTcrossR2: 2083538297
+      RoadGravelXCross: -1500427033
+      RoadHardenedBridgeRiverL: 507873695
+      RoadHardenedBridgeRiverR: -715969615
+      RoadHardenedCanyonBridgeL: -950946888
+      RoadHardenedCanyonBridgeR: -1928970716
+      RoadHardenedCross: -670500619
+      RoadHardenedCurveB: -1612805212
+      RoadHardenedCurveL: 1836937300
+      RoadHardenedCurveR: -1905646470
+      RoadHardenedCurveT: 1573085807
+      RoadHardenedL1: 1425696626
+      RoadHardenedL2: 1814213798
+      RoadHardenedL3: -355737957
+      RoadHardenedR1: -143686859
+      RoadHardenedR2: -571593943
+      RoadHardenedR3: -937829633
+      RoadHardenedTcrossL1: -762020667
+      RoadHardenedTcrossL2: 765356920
+      RoadHardenedTcrossR1: -1161587254
+      RoadHardenedTcrossR2: -430076077
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

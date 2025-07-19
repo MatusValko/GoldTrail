@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: 465026f309f1d4e44b9353594b6bfe38
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AbandonedCampfire
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1012
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f29a770e038344092b6cf9a241a826
+      internalID: 965768467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanditsLvl1
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1731
+        width: 512
+        height: 317
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4731861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29aa12bd0e4574394ecb0ea1e8f23d
+      internalID: -140760665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanditsLvl2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 512
+        height: 317
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4731861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da07a85a9e51ccc4fb43f2dfdeac91c1
+      internalID: 96244094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanditsLvl3Camp
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 544
+        width: 512
+        height: 317
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4731861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a837cda7cf6849c40a24713b9aebea2f
+      internalID: 2010423335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanditsLvl4WoodenFortress
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1085
+        width: 508
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.46728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735a500f0e4e8f045a1ae4f0d8852a37
+      internalID: -1163945841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BanditsLvl5StoneFortress
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 957
+        width: 508
+        height: 328
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.45731708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be95209d94753146b7a22e5b307dd72
+      internalID: -1435978612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coal
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1749
+        width: 512
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50501674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580e04bed65768e42a5d955d52564525
+      internalID: -423799261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DriedLakeWithCrackedBottom
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 477
+        width: 508
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c749f9a41fff3994498e03a4c403354a
+      internalID: -1791162651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmptyTile1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 42
+        width: 505
+        height: 298
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5067114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329f082f396d9574c9080e3e163d446b
+      internalID: -196798951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmptyTile2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 402
+        width: 509
+        height: 305
+      alignment: 9
+      pivot: {x: 0.502947, y: 0.49508196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584ea168c7d14714c8614f98a3a80ab9
+      internalID: 118206891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallenBranches andTornWagon Remains
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 43
+        width: 508
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbc3aac9412d6f438246c3d95688c32
+      internalID: 1280828544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallenTreeTrunkOnSand
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 117
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00534bba1cefb014ea64a2c45e09ec00
+      internalID: -162449182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FineSandWith GrassBlades1
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 555
+        width: 508
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.49019608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00796789c9abac140806612d5db033cd
+      internalID: 1015314089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FineSandWith GrassBlades2
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1570
+        width: 506
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4950495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ba7871578b2fa458ae53b2ab778149
+      internalID: -2075135021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestConiferous
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1251
+        width: 508
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.44510385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d461a34dca1a154f99ec479b89324dc
+      internalID: -828311588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestDeciduous
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 715
+        width: 508
+        height: 323
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4643963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6b17205832ee24caca1dfb70a08076
+      internalID: -2140769578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestDenseWithDryBranches
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1706
+        width: 511
+        height: 342
+      alignment: 9
+      pivot: {x: 0.49902153, y: 0.4385965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c4c4b96447c334caabaf089af12090
+      internalID: 711271585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestMixed
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1533
+        width: 508
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.44510385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bc081ca96bed94fbc6f1596915939b
+      internalID: -1019677422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestWithFallenTreeTrunks
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1526
+        width: 508
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03beb3fbd6def9d4d9e6a2a962968993
+      internalID: 1133725746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForestWithSmallPond
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130
+        width: 508
+        height: 335
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.4477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb53b58457aef045870c6379f5e0111
+      internalID: -538197430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 788
+        width: 508
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.48231512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70678e66682a8d4b8311b9130be7803
+      internalID: -1674025547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass1
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1389
+        width: 508
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba5901d65c46144ab75553ac40e94f0
+      internalID: -552963437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassWithSmall Stones
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 806
+        width: 505
+        height: 310
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.4870968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5258e7477f2454ab5c97926d69b56f
+      internalID: -1643610348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundDryCracked
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 0
+        width: 505
+        height: 298
+      alignment: 9
+      pivot: {x: 0.4990099, y: 0.5067114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d920284337df6543a0f81e16b6bdc27
+      internalID: -864058974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundWithStones
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 262
+        width: 508
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5033557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae40c5e1104c2f4eacd1f83aee44ac1
+      internalID: -2071393837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iron
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 412
+        width: 508
+        height: 299
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.50167227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7608b5ca5b4d64cbbab7d51b67f953
+      internalID: 1602536810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SandWithAnimalSkeleton
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 780
+        width: 510
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b5d453ca07ba409792dbcae9d32a5
+      internalID: -2004233247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SandWithFewCacti1
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 632
+        width: 508
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.50167227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3293ff7f9d6454298345a3bbaf3a6b
+      internalID: -1718494689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SandWithFewCacti2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1715
+        width: 507
+        height: 333
+      alignment: 9
+      pivot: {x: 0.49704143, y: 0.45345345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e21d5b4e7d5c247aa45c620060207d
+      internalID: -1543311679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallMuddyPonds
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 265
+        width: 508
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.5067568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf3f8d66bd227d4eb12f7540f3b63bc
+      internalID: -1710616790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1341
+        width: 508
+        height: 294
+      alignment: 9
+      pivot: {x: 0.496063, y: 0.5136054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8851ab49d2d6bb4193c6fd1f8c414bc
+      internalID: 75970565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6687a504932fd7b46940487d414c7399
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AbandonedCampfire: 965768467
+      BanditsLvl1: -140760665
+      BanditsLvl2: 96244094
+      BanditsLvl3Camp: 2010423335
+      BanditsLvl4WoodenFortress: -1163945841
+      BanditsLvl5StoneFortress: -1435978612
+      Coal: -423799261
+      DriedLakeWithCrackedBottom: -1791162651
+      EmptyTile1: -196798951
+      EmptyTile2: 118206891
+      FallenBranches andTornWagon Remains: 1280828544
+      FallenTreeTrunkOnSand: -162449182
+      FineSandWith GrassBlades1: 1015314089
+      FineSandWith GrassBlades2: -2075135021
+      ForestConiferous: -828311588
+      ForestDeciduous: -2140769578
+      ForestDenseWithDryBranches: 711271585
+      ForestMixed: -1019677422
+      ForestWithFallenTreeTrunks: 1133725746
+      ForestWithSmallPond: -538197430
+      Gold: -1674025547
+      Grass1: -552963437
+      GrassWithSmall Stones: -1643610348
+      GroundDryCracked: -864058974
+      GroundWithStones: -2071393837
+      Iron: 1602536810
+      SandWithAnimalSkeleton: -2004233247
+      SandWithFewCacti1: -1718494689
+      SandWithFewCacti2: -1543311679
+      SmallMuddyPonds: -1710616790
+      Stone: 75970565
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
