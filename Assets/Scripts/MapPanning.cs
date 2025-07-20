@@ -186,39 +186,33 @@ public class MapPanningZooming : MonoBehaviour
         //THIS IS USED
         if (Input.touchCount == 1)
         {
-            _isZooming = false;
-
             Touch touch = Input.GetTouch(0);
-
+            _isZooming = false; // Reset zooming state for single touch
             switch (touch.phase)
             {
                 case TouchPhase.Began:
                     _touchStartPos = touch.position;
                     _startTime = Time.time;
                     _isDragging = false;
+                    // _isZooming = false;
                     dragOrigin = _camera.ScreenToWorldPoint(touch.position);
                     break;
 
                 case TouchPhase.Moved:
-                    _isDragging = true;
+                    if (_isZooming)
+                    {
+                        dragOrigin = _camera.ScreenToWorldPoint(touch.position);
+                        _isZooming = false;
+                        _isDragging = true;
+                    }
+
                     if (Vector2.Distance(touch.position, _touchStartPos) > _moveThreshold)
                     {
                         Vector3 difference = dragOrigin - _camera.ScreenToWorldPoint(touch.position);
                         _camera.transform.position += difference;
                         ClampCamera();
                     }
-                    // Vector2 delta = touch.position - (Vector2)_touchStartPos;
-                    // float dragSpeed = 0.01f; // Adjust this value to control panning speed
-                    // Vector3 move = new Vector3(-delta.x * dragSpeed, -delta.y * dragSpeed, 0f);
-
-                    // Camera.main.transform.Translate(move, Space.World);
-                    // // _touchStartPos = touch.position;
-                    // Vector3 pos = _camera.transform.position;
-                    // pos.z = -10f;
-                    // _camera.transform.position = pos;
-                    // ClampCamera();
                     break;
-
                 case TouchPhase.Ended:
                     float duration = Time.time - _startTime;
                     if (!_isDragging && duration < _clickTimeThreshold)
@@ -230,9 +224,10 @@ public class MapPanningZooming : MonoBehaviour
                     break;
             }
         }
-        else if (Input.touchCount == 2) // Mobile pinch zoom
+        else if (Input.touchCount == 2) // Mobile pinch zoom //TODO TRY >=2
         {
             _isZooming = true;
+            _isDragging = false;
 
             Touch touch0 = Input.GetTouch(0);
             Touch touch1 = Input.GetTouch(1);
@@ -244,10 +239,23 @@ public class MapPanningZooming : MonoBehaviour
             float currentMagnitude = (touch0.position - touch1.position).magnitude;
             float difference = prevMagnitude - currentMagnitude;
 
+            // Vector2 midpoint = (touch0.position + touch1.position) / 2;
+
+            // // World position before zoom
+            // Vector3 worldBeforeZoom = _camera.ScreenToWorldPoint(midpoint);
+
             if (Mathf.Abs(difference) > 1f) // Threshold in pixels
             {
                 Zoom(difference * zoomSpeed);
             }
+            // Vector3 worldAfterZoom = _camera.ScreenToWorldPoint(midpoint);
+
+            // Vector3 diff = worldBeforeZoom - worldAfterZoom;
+            // _camera.transform.position += diff;
+        }
+        else if (Input.touchCount == 0)
+        {
+            _isZooming = false; // Reset when no fingers are touching
         }
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
         if (Input.GetMouseButtonDown(0))
