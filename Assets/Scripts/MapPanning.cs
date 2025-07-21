@@ -24,16 +24,26 @@ public class MapPanningZooming : MonoBehaviour
     [SerializeField] private float _smoothSpeed = 0.1f; // Higher = faster zooming, lower = smoother
     [SerializeField] private float _moveThreshold = 10f; // pixels
     [SerializeField] private float _clickTimeThreshold = 0.2f; // seconds
+
+    [SerializeField] private float _prevTouchDeltaMag = 0f;
     private Vector3 dragOrigin;
 
     private Vector3 _touchStartPos;
     private float _startTime;
     private bool _isDragging = false;
+    private bool _pinchStarted = false;
+    private float lastPinchDistance = 0f;
 
     [SerializeField] private float minXClamp;
     [SerializeField] private float maxXClamp;
     [SerializeField] private float minYClamp;
     [SerializeField] private float maxYClamp;
+
+    [SerializeField] private float effectiveSizeX;
+    [SerializeField] private float effectiveSizeY;
+
+
+
 
     //header
     [Header("Tilemap Outline")]
@@ -87,14 +97,14 @@ public class MapPanningZooming : MonoBehaviour
 
     private void _setCameraBounds()
     {
-        float effectiveSizeX = tileSizeX + cellGapX;
-        float effectiveSizeY = tileSizeY + cellGapY;
+        effectiveSizeX = tileSizeX + cellGapX;
+        effectiveSizeY = tileSizeY + cellGapY;
 
         minXClamp = -((gridSizeX / 2) * effectiveSizeX);
         maxXClamp = (gridSizeX / 2) * effectiveSizeX;
         minYClamp = -(gridSizeY / 2 * effectiveSizeY);
         maxYClamp = (gridSizeY / 2 * effectiveSizeY);
-        DebugLogger.Log($"Clamping camera to X: [{minXClamp}, {maxXClamp}], Y: [{minYClamp}, {maxYClamp}]");
+        // DebugLogger.Log($"Clamping camera to X: [{minXClamp}, {maxXClamp}], Y: [{minYClamp}, {maxYClamp}]");
     }
 
     void Update()
@@ -153,49 +163,23 @@ public class MapPanningZooming : MonoBehaviour
 
     private void _handleInput()
     {
-        // if (IsPointerOverUI()) return;
-        // if (IsZooming) return;
-
-        // if (Input.GetMouseButtonDown(0)) // Mouse click/touch start
-        // {
-        //     // if (IsPointerOverUI()) return;
-        //     touchStartPos = Input.mousePosition;
-        //     isDragging = false;
-        //     dragOrigin = cam.ScreenToWorldPoint(Input.mousePosition);
-
-        // }
-
-        // if (Input.GetMouseButton(0)) // Mouse drag/touch move
-        // {
-        //     if (Vector3.Distance(touchStartPos, Input.mousePosition) > dragThreshold)
-        //     {
-        //         Vector3 difference = dragOrigin - cam.ScreenToWorldPoint(Input.mousePosition);
-        //         cam.transform.position += difference;
-        //         isDragging = true;
-        //     }
-        // }
-
-        // if (Input.GetMouseButtonUp(0) && !isDragging) // Mouse release, only select if not dragging
-        // {
-        //     // if (IsPointerOverUI()) return;
-        //     SelectTile();
-        //     // TileSelector ts= GetComponent<TileSelector>();
-        // }
-
-
         //THIS IS USED
         if (Input.touchCount == 1)
         {
             Touch touch = Input.GetTouch(0);
-            _isZooming = false; // Reset zooming state for single touch
+            // _isZooming = false; // Reset zooming state for single touch
             switch (touch.phase)
             {
                 case TouchPhase.Began:
                     _touchStartPos = touch.position;
                     _startTime = Time.time;
                     _isDragging = false;
-                    // _isZooming = false;
-                    dragOrigin = _camera.ScreenToWorldPoint(touch.position);
+                    // dragOrigin = _camera.ScreenToWorldPoint(touch.position);
+                    //from claude
+                    if (!_isZooming)
+                    {
+                        dragOrigin = _camera.ScreenToWorldPoint(touch.position);
+                    }
                     break;
 
                 case TouchPhase.Moved:
@@ -210,7 +194,8 @@ public class MapPanningZooming : MonoBehaviour
                     {
                         Vector3 difference = dragOrigin - _camera.ScreenToWorldPoint(touch.position);
                         _camera.transform.position += difference;
-                        ClampCamera();
+                        ClampCameraToDiamond();
+                        _isDragging = true; //claude
                     }
                     break;
                 case TouchPhase.Ended:
@@ -221,46 +206,81 @@ public class MapPanningZooming : MonoBehaviour
                         //CLICK ON TILE
                         SelectTile(worldPos);
                     }
+                    _isDragging = false;//claude
+                    _isZooming = false; //claude
                     break;
             }
         }
         else if (Input.touchCount == 2) // Mobile pinch zoom //TODO TRY >=2
         {
-            _isZooming = true;
             _isDragging = false;
 
             Touch touch0 = Input.GetTouch(0);
             Touch touch1 = Input.GetTouch(1);
 
-            Vector2 touch0PrevPos = touch0.position - touch0.deltaPosition;
-            Vector2 touch1PrevPos = touch1.position - touch1.deltaPosition;
+            // Calculate current distance between fingers
+            float currentDistance = Vector2.Distance(touch0.position, touch1.position);
 
-            float prevMagnitude = (touch0PrevPos - touch1PrevPos).magnitude;
-            float currentMagnitude = (touch0.position - touch1.position).magnitude;
-            float difference = prevMagnitude - currentMagnitude;
-
-            // Vector2 midpoint = (touch0.position + touch1.position) / 2;
-
-            // // World position before zoom
-            // Vector3 worldBeforeZoom = _camera.ScreenToWorldPoint(midpoint);
-
-            if (Mathf.Abs(difference) > 1f) // Threshold in pixels
+            if (!_isZooming)
             {
-                Zoom(difference * zoomSpeed);
+                // First frame of pinch - just record the distance, don't zoom
+                _isZooming = true;
+                lastPinchDistance = currentDistance;
+                DebugLogger.Log($"Pinch started - distance: {currentDistance}");
             }
-            // Vector3 worldAfterZoom = _camera.ScreenToWorldPoint(midpoint);
+            else
+            {
+                // Calculate how much the distance changed
+                float deltaDistance = currentDistance - lastPinchDistance;
+                lastPinchDistance = currentDistance;
 
-            // Vector3 diff = worldBeforeZoom - worldAfterZoom;
-            // _camera.transform.position += diff;
+                DebugLogger.Log($"Delta: {deltaDistance}, Current: {currentDistance}");
+
+                // Only zoom if change is significant
+                float currentSize = _camera.orthographicSize;
+                float zoomSpeedMultiplier = currentSize / 10f; // Adjust divisor as needed
+
+                // Positive deltaDistance = fingers moving apart = zoom out
+                // Negative deltaDistance = fingers moving together = zoom in
+                float zoomAmount = -deltaDistance * 0.01f * zoomSpeedMultiplier;
+
+
+                float newSize = Mathf.Clamp(currentSize + zoomAmount, minZoom, maxZoom);
+                _camera.orthographicSize = newSize;
+
+                _optimizeTilemap();
+            }
+
+
+
+            // _isZooming = true;
+            // _isDragging = false;
+
+            // Touch touch0 = Input.GetTouch(0);
+            // Touch touch1 = Input.GetTouch(1);
+            // Vector2 touch0PrevPos = touch0.position - touch0.deltaPosition;
+            // Vector2 touch1PrevPos = touch1.position - touch1.deltaPosition;
+            // float prevMagnitude = (touch0PrevPos - touch1PrevPos).magnitude;
+            // float currentMagnitude = (touch0.position - touch1.position).magnitude;
+            // float deltaMag = _prevTouchDeltaMag - currentMagnitude;
+            // _prevTouchDeltaMag = currentMagnitude;
+
+            // if (Mathf.Abs(deltaMag) > 1f) // Threshold in pixels
+            // {
+            //     Zoom(deltaMag * zoomSpeed);
+            // }
         }
-        else if (Input.touchCount == 0)
+        else if (Input.touchCount < 2 && _isZooming)
         {
-            _isZooming = false; // Reset when no fingers are touching
+            // End pinch gesture
+            _isZooming = false;
+            lastPinchDistance = 0f;
+            DebugLogger.Log("Pinch ended");
         }
 #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
         if (Input.GetMouseButtonDown(0))
         {
-            DebugLogger.Log("BUTTON DOWN");
+            // DebugLogger.Log("BUTTON DOWN");
             _touchStartPos = Input.mousePosition;
             _startTime = Time.time;
             _isDragging = false;
@@ -272,21 +292,20 @@ public class MapPanningZooming : MonoBehaviour
 
             if (Vector2.Distance((Vector2)Input.mousePosition, _touchStartPos) > _moveThreshold)
             {
-                DebugLogger.Log("DRAGGING");
+                // DebugLogger.Log("DRAGGING");
                 Vector3 difference = dragOrigin - _camera.ScreenToWorldPoint(Input.mousePosition);
                 _camera.transform.position += difference;
-                ClampCamera();
-                // ClampCameraIsometric();
+                ClampCameraToDiamond();
             }
         }
         else if (Input.GetMouseButtonUp(0))
         {
-            DebugLogger.Log("BUTTON UP");
+            // DebugLogger.Log("BUTTON UP");
 
             float duration = Time.time - _startTime;
             if (!_isDragging && duration < _clickTimeThreshold)
             {
-                DebugLogger.Log("CLICK");
+                // DebugLogger.Log("CLICK");
                 Vector2 worldPos = _camera.ScreenToWorldPoint(Input.mousePosition);
                 SelectTile(worldPos);
             }
@@ -299,33 +318,51 @@ public class MapPanningZooming : MonoBehaviour
 #endif
     }
 
-    void ClampCamera()
+    public void ClampCameraToDiamond()
     {
-        float clamped2X = Mathf.Clamp(_camera.transform.position.x, minXClamp, maxXClamp);
-        float clamped2Y = Mathf.Clamp(_camera.transform.position.y, minYClamp, maxYClamp);
-        _camera.transform.position = new Vector3(clamped2X, clamped2Y, -10f); // lock z = -10
+        Vector3 pos = _camera.transform.position;
+
+        // Clamp to rectangle first (safe fallback)
+        pos.x = Mathf.Clamp(pos.x, minXClamp, maxXClamp);
+        pos.y = Mathf.Clamp(pos.y, minYClamp, maxYClamp);
+
+        // Now calculate diagonal (diamond) limits
+        float halfWidth = (maxXClamp - minXClamp) / 2f;
+        float halfHeight = (maxYClamp - minYClamp) / 2f;
+        Vector2 center = new Vector2((minXClamp + maxXClamp) / 2f, (minYClamp + maxYClamp) / 2f);
+
+        // Convert position to relative
+        float dx = pos.x - center.x;
+        float dy = pos.y - center.y;
+
+        // Check if outside diamond bounds
+        if (Mathf.Abs(dx / halfWidth) + Mathf.Abs(dy / halfHeight) > 1f)
+        {
+            float t = 1f / (Mathf.Abs(dx / halfWidth) + Mathf.Abs(dy / halfHeight));
+            dx *= t;
+            dy *= t;
+        }
+
+        // Set final clamped position
+        _camera.transform.position = new Vector3(center.x + dx, center.y + dy, -10f);
     }
 
     private float zoomVelocity = 0f;
     void Zoom(float increment)
     {
-        // int fasterWhenFarther = (int)_camera.orthographicSize / 10;
-        // increment = increment > 0 ? increment + fasterWhenFarther : increment - fasterWhenFarther;
-        // float currentSize = _camera.orthographicSize;
-        // float targeSize = Mathf.Clamp(_camera.orthographicSize + (increment * zoomSpeed), minZoom, maxZoom);
-        // float smoothScale = Mathf.SmoothDamp(currentSize, targeSize, ref zoomVelocity, _smoothSpeed);
-
-        // // float zoomFactor = cam.orthographicSize * 0.5f * ; // Scale zoom speed based on current zoom
-        // // cam.orthographicSize = Mathf.Clamp(cam.orthographicSize + (increment * zoomSpeed), minZoom, maxZoom);
-        // _camera.orthographicSize = smoothScale;
-
-        float scaleFactor = _camera.orthographicSize / 10f; // optional, tweak multiplier
-        float baseSpeed = zoomSpeed * scaleFactor;
-
         float currentSize = _camera.orthographicSize;
-        float targetSize = Mathf.Clamp(currentSize + increment * baseSpeed, minZoom, maxZoom);
+        float zoomFactor = 1f + (increment * zoomSpeed * 0.02f); // Convert to percentage
+        float targetSize = Mathf.Clamp(currentSize * zoomFactor, minZoom, maxZoom);
 
         _camera.orthographicSize = Mathf.SmoothDamp(currentSize, targetSize, ref zoomVelocity, _smoothSpeed);
+
+        // float scaleFactor = _camera.orthographicSize / 10f; // optional, tweak multiplier
+        // float baseSpeed = zoomSpeed * scaleFactor;
+
+        // float currentSize = _camera.orthographicSize;
+        // float targetSize = Mathf.Clamp(currentSize + increment * baseSpeed, minZoom, maxZoom);
+
+        // _camera.orthographicSize = Mathf.SmoothDamp(currentSize, targetSize, ref zoomVelocity, _smoothSpeed);
 
         _optimizeTilemap();
     }
@@ -351,9 +388,8 @@ public class MapPanningZooming : MonoBehaviour
         {
             tilemapRenderer.mode = TilemapRenderer.Mode.Individual;
         }
-        float width = 0.5f * (_camera.orthographicSize / 100);
-        lineRenderer.startWidth = width;
-        lineRenderer.endWidth = width;
+        float width = 0.5f * (_camera.orthographicSize / 35);
+        SetLineWidth(width);
     }
 
 
@@ -369,7 +405,7 @@ public class MapPanningZooming : MonoBehaviour
         lineRenderer.material = new Material(Shader.Find("Sprites/Default")); // Assign a visible material
         lineRenderer.startColor = Color.red;
         lineRenderer.endColor = Color.red;
-        lineRenderer.sortingOrder = 50;
+        lineRenderer.sortingOrder = -50;
 
         UpdateOutline();
     }
